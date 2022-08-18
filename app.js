@@ -5,7 +5,6 @@ require('colors');
 
 var fetchWeather = require('./fetch-weather');
 var prepareForWeather = require('./prepared-for-the-weather');
-
 var commandLineArgs = require("command-line-args");
 
 var cli = commandLineArgs([
