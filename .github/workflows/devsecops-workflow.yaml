@@ -19,8 +19,8 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.organization=veeranna
-          -Dsonar.projectKey=devsecopsganodejsprojectkey1
+          -Dsonar.organization=veeruat
+          -Dsonar.projectKey=veeruat_devsecopsnode
   security:
     runs-on: ubuntu-latest
     needs: build
